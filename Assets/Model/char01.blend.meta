@@ -1,0 +1,1723 @@
+fileFormatVersion: 2
+guid: 2d4f835e6222fc94888cddd803cf2afd
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Armature
+    100002: blouse
+    100004: body
+    100006: Bone
+    100008: Bone_arm_l1
+    100010: Bone_arm_l2
+    100012: Bone_arm_r1
+    100014: Bone_arm_r2
+    100016: Bone_bodyToCloak
+    100018: Bone_breast_l
+    100020: Bone_breast_r
+    100022: Bone_cloak_c1
+    100024: Bone_cloak_c2
+    100026: Bone_cloak_c3
+    100028: Bone_cloak_c4
+    100030: Bone_cloak_l0
+    100032: Bone_cloak_l1
+    100034: Bone_cloak_l2
+    100036: Bone_cloak_l3
+    100038: Bone_cloak_l4
+    100040: Bone_cloak_r0
+    100042: Bone_cloak_r1
+    100044: Bone_cloak_r2
+    100046: Bone_cloak_r3
+    100048: Bone_cloak_r4
+    100050: Bone_foot_l
+    100052: Bone_foot_r
+    100054: Bone_hair_l1
+    100056: Bone_hair_l2
+    100058: Bone_hair_l3
+    100060: Bone_hair_r1
+    100062: Bone_hair_r2
+    100064: Bone_hair_r3
+    100066: Bone_hand_l
+    100068: Bone_hand_r
+    100070: Bone_head
+    100072: Bone_headToHair_l
+    100074: Bone_headToHair_r
+    100076: Bone_hip_l
+    100078: Bone_hip_r
+    100080: Bone_leg1_l
+    100082: Bone_leg1_r
+    100084: Bone_leg2_l
+    100086: Bone_leg2_r
+    100088: boots
+    100090: //RootNode
+    100092: char01_freezed_mqo
+    100094: corset
+    100096: hair1
+    100098: hair2
+    100100: hair3
+    100102: hair_ring
+    100104: head
+    100106: hood_and_cloak
+    100108: skirt
+    100110: wand
+    400000: Armature
+    400002: blouse
+    400004: body
+    400006: Bone
+    400008: Bone_arm_l1
+    400010: Bone_arm_l2
+    400012: Bone_arm_r1
+    400014: Bone_arm_r2
+    400016: Bone_bodyToCloak
+    400018: Bone_breast_l
+    400020: Bone_breast_r
+    400022: Bone_cloak_c1
+    400024: Bone_cloak_c2
+    400026: Bone_cloak_c3
+    400028: Bone_cloak_c4
+    400030: Bone_cloak_l0
+    400032: Bone_cloak_l1
+    400034: Bone_cloak_l2
+    400036: Bone_cloak_l3
+    400038: Bone_cloak_l4
+    400040: Bone_cloak_r0
+    400042: Bone_cloak_r1
+    400044: Bone_cloak_r2
+    400046: Bone_cloak_r3
+    400048: Bone_cloak_r4
+    400050: Bone_foot_l
+    400052: Bone_foot_r
+    400054: Bone_hair_l1
+    400056: Bone_hair_l2
+    400058: Bone_hair_l3
+    400060: Bone_hair_r1
+    400062: Bone_hair_r2
+    400064: Bone_hair_r3
+    400066: Bone_hand_l
+    400068: Bone_hand_r
+    400070: Bone_head
+    400072: Bone_headToHair_l
+    400074: Bone_headToHair_r
+    400076: Bone_hip_l
+    400078: Bone_hip_r
+    400080: Bone_leg1_l
+    400082: Bone_leg1_r
+    400084: Bone_leg2_l
+    400086: Bone_leg2_r
+    400088: boots
+    400090: //RootNode
+    400092: char01_freezed_mqo
+    400094: corset
+    400096: hair1
+    400098: hair2
+    400100: hair3
+    400102: hair_ring
+    400104: head
+    400106: hood_and_cloak
+    400108: skirt
+    400110: wand
+    4300000: wand
+    4300002: hood_and_cloak
+    4300004: skirt
+    4300006: corset
+    4300008: boots
+    4300010: blouse
+    4300012: hair_ring
+    4300014: hair2
+    4300016: hair1
+    4300018: head
+    4300020: body
+    4300022: hair3
+    7400000: Default Take
+    7400002: Base_Pose
+    7400004: Bomb
+    7400006: Damaged
+    7400008: Die
+    7400010: Die0
+    7400012: Idle
+    7400014: Idle2
+    7400016: Run
+    7400018: StandIdle
+    7400020: Walk
+    9500000: //RootNode
+    13700000: blouse
+    13700002: body
+    13700004: boots
+    13700006: corset
+    13700008: hair1
+    13700010: hair2
+    13700012: hair3
+    13700014: hair_ring
+    13700016: head
+    13700018: hood_and_cloak
+    13700020: skirt
+    13700022: wand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Base_Pose
+      takeName: Base_Pose
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bomb
+      takeName: Bomb
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Damaged
+      takeName: Damaged
+      firstFrame: -1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      firstFrame: -1
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die0
+      takeName: Die0
+      firstFrame: -1
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Idle2
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StandIdle
+      takeName: StandIdle
+      firstFrame: -1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_c1/Bone_cloak_c2/Bone_cloak_c3/Bone_cloak_c4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_l0/Bone_cloak_l1/Bone_cloak_l2/Bone_cloak_l3/Bone_cloak_l4
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3
+        weight: 1
+      - path: Armature/Bone/Bone_bodyToCloak/Bone_cloak_r0/Bone_cloak_r1/Bone_cloak_r2/Bone_cloak_r3/Bone_cloak_r4
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_l/Bone_arm_l1/Bone_arm_l2/Bone_hand_l
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2
+        weight: 1
+      - path: Armature/Bone/Bone_breast_r/Bone_arm_r1/Bone_arm_r2/Bone_hand_r
+        weight: 1
+      - path: Armature/Bone/Bone_head
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_l/Bone_hair_l1/Bone_hair_l2/Bone_hair_l3
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2
+        weight: 1
+      - path: Armature/Bone/Bone_head/Bone_headToHair_r/Bone_hair_r1/Bone_hair_r2/Bone_hair_r3
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_l/Bone_leg1_l/Bone_leg2_l/Bone_foot_l
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r
+        weight: 1
+      - path: Armature/Bone/Bone_hip_r/Bone_leg1_r/Bone_leg2_r/Bone_foot_r
+        weight: 1
+      - path: blouse
+        weight: 1
+      - path: body
+        weight: 1
+      - path: boots
+        weight: 1
+      - path: char01_freezed_mqo
+        weight: 1
+      - path: corset
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair2
+        weight: 1
+      - path: hair3
+        weight: 1
+      - path: hair_ring
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood_and_cloak
+        weight: 1
+      - path: skirt
+        weight: 1
+      - path: wand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
