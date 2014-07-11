@@ -2,14 +2,14 @@
 <stages>
 	<stage name="すてーじ1">
 		<wave>
-			<enemy name="Enemy2" ix="-6" x="-4" iy="4" y="2" />
+			<enemy name="Enemy2" ix="-6" x="-3" iy="4" y="2" />
 		</wave>
 		<wave>
-			<enemy name="Enemy2" ix="6" x="4" iy="-4" y="-2" />
+			<enemy name="Enemy2" ix="6" x="3" iy="-4" y="-2" />
 		</wave>
 		<wave>
-			<enemy name="Enemy1" ix="-6" x="-4" iy="4" y="2" />
-			<enemy name="Enemy2" ix="6" x="4" iy="-4" y="-2" />
+			<enemy name="Enemy1" ix="-6" x="-3" iy="4" y="2" />
+			<enemy name="Enemy2" ix="6" x="3" iy="-4" y="-2" />
 		</wave>
 	</stage>
 </stages>

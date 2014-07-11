@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	public GameObject dragger;
 	
 	public float life = 3.0f;
-	private bool isImmortal = false;
+	private bool isImmortal = true;
 	
 	public int shotInterval = 10;
 	private int shotTimer = 0;
@@ -46,7 +46,11 @@ public class Player : MonoBehaviour {
 		//Debug.Log(shotInterval);
 		if(shotTimer <= 0){
 			shotTimer = shotInterval;
-			Instantiate(bulletPrefab, transform.position, transform.rotation);
+			GameObject b = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
+			b.transform.Rotate (new Vector3(0.0f, 90.0f, 90.0f));
+			//b.SendMessage ("AddForce", Vector2.Angle(b.transform.position, aim.transform.position));
+			//Debug.Log (Vector3.Angle(transform.position, aim.transform.position));
+			SetVelocityForRigidbody2D(GetAim (transform.position, aim.transform.position), 10.0f, b);
 		}
 		
 		if(tapHold && Input.GetMouseButtonUp(0)){
@@ -121,6 +125,21 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	public float GetAim(Vector2 p1, Vector2 p2) {
+		float dx = p2.x - p1.x;
+		float dy = p2.y - p1.y;
+		float rad = Mathf.Atan2(dy, dx);
+		return rad * Mathf.Rad2Deg;
+	}
+
+	public void SetVelocityForRigidbody2D(float direction, float speed, GameObject t) {
+		// Setting velocity.
+		Vector2 v;
+		v.x = Mathf.Cos (Mathf.Deg2Rad * direction) * speed;
+		v.y = Mathf.Sin (Mathf.Deg2Rad * direction) * speed;
+		t.rigidbody2D.velocity = v;
+	}
+	
 	void catchTap(Tap t){
 		//Debug.Log ("GetMouseButtonDown");
 		telepoScreenPoint = new Vector3(t.position.x, t.position.y, 5.0f);
@@ -153,7 +172,7 @@ public class Player : MonoBehaviour {
 
 	void StartMoveAim(Tap t){
 		//Debug.Log("startMoveAim");
-		MoveAim((Vector3)t.position + new Vector3(0, 0, 5));
+		MoveAim((Vector3)t.position + new Vector3(0, 5, 0));
 		if(t.fingerId != -1){
 			//fingerIdがnullで無い場合（＝タッチの場合）のみTouchControllerをつくる
 			GameObject touchController = (GameObject)GameObject.Instantiate(touchControllerPrefab, transform.position, Quaternion.identity);

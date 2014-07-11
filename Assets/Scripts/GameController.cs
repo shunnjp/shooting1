@@ -56,11 +56,12 @@ public class GameController : MonoBehaviour {
 		}
 
 		aim.renderer.enabled = false;
-		iTween.RotateBy(cameraContainer, iTween.Hash("x", 0.0f, "y", 1.0f, "z", 0.0f, "time", 2.5f, "delay", 0.0f));
-		iTween.MoveTo(cameraContainer, iTween.Hash("position", new Vector3(0, 3.5f, 0), "time", 2.5f, "delay", 2.5f, "oncomplete", "CameraMoveComplete", "oncompletetarget", gameObject));
-		iTween.RotateTo(cameraContainer, iTween.Hash("x", 90.0f, "y", 0.0f, "z", 0.0f, "time", 2.0f, "delay", 2.5f));
+		iTween.RotateBy(cameraContainer, iTween.Hash("x", 0.0f, "y", 1.0f, "z", 0.0f, "time", 1.5f, "delay", 0.0f));
+		//iTween.MoveTo(cameraContainer, iTween.Hash("position", new Vector3(0, 3.5f, 0), "time", 2.5f, "delay", 2.5f, "oncomplete", "CameraMoveComplete", "oncompletetarget", gameObject));
+		//iTween.RotateTo(cameraContainer, iTween.Hash("x", 90.0f, "y", 0.0f, "z", 0.0f, "time", 2.0f, "delay", 2.5f));
+		iTween.MoveTo(cameraContainer, iTween.Hash("position", new Vector3(0, 0, -3.5f), "time", 1.5f, "delay", 0.2f,  "oncomplete", "CameraMoveComplete", "oncompletetarget", gameObject));
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	

@@ -37,8 +37,8 @@ public class Wave {
 	public void GenerateEnemy(){
 		num = enemyList.Count;
 		foreach(EnemyData i in enemyList){
-			Vector3 initPos = new Vector3(i.initX, 0.0f, i.initY);//上から見下ろしている視点のため、initYといいつつZにセット
-			Vector3 targetPos = new Vector3(i.targetX, 0.0f, i.targetY);
+			Vector3 initPos = new Vector3(i.initX, i.initY, 0.0f);//上から見下ろしている視点のため、initYといいつつZにセット
+			Vector3 targetPos = new Vector3(i.targetX, i.targetY, 0.0f);
 			GameObject enemy = (GameObject)GameObject.Instantiate(Resources.Load ("Enemy/" + i.name), initPos, Quaternion.identity);
 			enemy.GetComponent<Enemy>().wave = this;
 			enemy.SendMessage("Show", targetPos);

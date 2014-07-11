@@ -7,12 +7,18 @@ public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		rigidbody.AddForce(transform.forward * speed, ForceMode.VelocityChange);
+		//rigidbody.AddForce(transform.forward * speed, ForceMode.VelocityChange);
+		//rigidbody2D.AddForce(new Vector2(0, speed));
+	}
+
+	public void AddForce(Vector2 v){
+		Debug.Log (v.x + " , " + v.y);
+		rigidbody2D.AddForce(v * speed * 50.0f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.x < -5.0f || transform.position.x > 5.0f || transform.position.z < -5.0f || transform.position.z > 5.0f){
+		if(transform.position.x < -5.0f || transform.position.x > 5.0f || transform.position.y < -5.0f || transform.position.y > 5.0f){
 			//Debug.Log("Destroy : " + transform.position);
 			Destroy(gameObject);
 		}
