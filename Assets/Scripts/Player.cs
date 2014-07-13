@@ -10,10 +10,12 @@ public class Player : MonoBehaviour {
 	public GameObject dragger;
 	
 	public float life = 3.0f;
-	private bool isImmortal = true;
+	private bool isImmortal = false;
 	
 	public int shotInterval = 10;
 	private int shotTimer = 0;
+
+	private bool isFiring = false;
 	
 	public int telepoListeningTime = 20;
 	
@@ -42,16 +44,7 @@ public class Player : MonoBehaviour {
 	void Update () {
 		if(isTeleportation) return;
 		
-		shotTimer--;
-		//Debug.Log(shotInterval);
-		if(shotTimer <= 0){
-			shotTimer = shotInterval;
-			GameObject b = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
-			b.transform.Rotate (new Vector3(0.0f, 90.0f, 90.0f));
-			//b.SendMessage ("AddForce", Vector2.Angle(b.transform.position, aim.transform.position));
-			//Debug.Log (Vector3.Angle(transform.position, aim.transform.position));
-			SetVelocityForRigidbody2D(GetAim (transform.position, aim.transform.position), 10.0f, b);
-		}
+		fire ();
 		
 		if(tapHold && Input.GetMouseButtonUp(0)){
 			tapHold = false;
@@ -61,24 +54,6 @@ public class Player : MonoBehaviour {
 		foreach(Touch touch in Input.touches){
 			if(touch.phase == TouchPhase.Began){
 				catchTap(new Tap(touch.position, Tap.TapType.Touch, touch.fingerId));
-
-				/*
-				//Debug.Log("touch検出");
-				telepoScreenPoint = new Vector3(touch.position.x, touch.position.y, 5.0f);
-				
-				if(CheckStartPlayerDrag(touch)) return;
-				
-				if(teleportationCountdown > 0 && Vector3.Distance(telepoScreenPoint, firstTouch.position) < Screen.height / 10){
-					//最初のタップから一定カウント以内かつふたつのタップの距離が一定以内であれば瞬間移動成立
-					Teleportation(telepoScreenPoint);
-				}else{
-					//瞬間移動受付時間外にタップした場合はそれを最初のタップfirstTouchとし、瞬間移動受付時間開始
-					teleportationCountdown = telepoListeningTime;
-					//firstTouch = touch;
-					firstTouch = new Tap(touch.position, Tap.TapType.Touch);
-					tapHold = true;//タップしてから押し続けた場合のフラグ
-				}
-				*/
 			}
 		}
 
@@ -102,26 +77,21 @@ public class Player : MonoBehaviour {
 
 		//マウス操作用
 		if(Input.GetMouseButtonDown(0)){
-
 			catchTap(new Tap(Input.mousePosition, Tap.TapType.Touch, -1));
-			
-			/*
-			//Debug.Log ("GetMouseButtonDown");
-			telepoScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 5.0f);
+		}
+	}
 
-			//if(CheckStartPlayerDrag(touch)) return;
-
-			if(teleportationCountdown > 0 && Vector3.Distance(telepoScreenPoint, firstTouch.position) < Screen.height / 10){
-				//最初のタップから一定カウント以内かつふたつのタップの距離が一定以内であれば瞬間移動尾成立
-				//Debug.Log ("クリックによる瞬間移動");
-				Teleportation(telepoScreenPoint);
-			}else{
-				//瞬間移動受付時間外にタップした場合はそれを最初のタップfirstTouchとし、瞬間移動受付時間開始
-				teleportationCountdown = telepoListeningTime;
-				firstTouch = new Tap(touch.position, Tap.TapType.Touch);
-				//tapHold = true;//タップしてから押し続けた場合のフラグ
-			}
-			*/
+	public void fire(){
+		if(!isFiring) return;
+		shotTimer--;
+		//Debug.Log(shotInterval);
+		if(shotTimer <= 0){
+			shotTimer = shotInterval;
+			GameObject b = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
+			b.transform.Rotate (new Vector3(0.0f, 90.0f, 90.0f));
+			//b.SendMessage ("AddForce", Vector2.Angle(b.transform.position, aim.transform.position));
+			//Debug.Log (Vector3.Angle(transform.position, aim.transform.position));
+			SetVelocityForRigidbody2D(GetAim (transform.position, aim.transform.position), 10.0f, b);
 		}
 	}
 
@@ -186,6 +156,7 @@ public class Player : MonoBehaviour {
 
 	//照準を移動する
 	void MoveAim(Vector2 screenPos){
+		if(!isFiring) isFiring = true;//ショット発射フラグが立っていなければ立てる
 		aim.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 5.0f));
 		RotateToAim();
 	}
@@ -268,8 +239,11 @@ public class Player : MonoBehaviour {
 		if(isImmortal) return;
 		life -= damage;
 		if(life <= 0.0f){
-			GameObject.Destroy(gameObject);
+			//GameObject.Destroy(gameObject);
 			GameObject.FindWithTag("GameController").SendMessage("GameOver");
+			gameObject.GetComponent <Animator>().SetTrigger ("Die");
+		}else{
+			gameObject.GetComponent <Animator>().SetTrigger ("Damaged");
 		}
 	}
 }

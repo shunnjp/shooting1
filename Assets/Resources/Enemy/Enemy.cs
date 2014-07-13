@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour {
 		GameObject player = GameObject.FindWithTag("Player");
 		if(!player) return;
 		
-		transform.rotation = Quaternion.LookRotation(player.transform.position - transform.position);
+		//transform.rotation = Quaternion.LookRotation(player.transform.position - transform.position);
 		
 		shotTimer++;
 		if(shotTimer >= shotInterval){
@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour {
 		life -= damage;
 		if(life <= 0){
 			//死亡
-			Destroy(gameObject.collider);
+			Destroy(gameObject.collider2D);
 			if(wave != null){
 				//wave.SendMessage("EnemyDestroyed");
 				wave.EnemyDestroyed();

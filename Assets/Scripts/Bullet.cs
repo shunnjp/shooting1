@@ -23,11 +23,20 @@ public class Bullet : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
-
+	/*
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject.tag == "Enemy"){
 			Destroy(gameObject);
 			other.gameObject.SendMessage("ApplyDamage", 1);
+		}
+	}
+	*/
+
+	void OnTriggerEnter2D(Collider2D collider){
+		Debug.Log ("衝突　" + collider.gameObject);
+		if(collider.gameObject.tag == "Enemy"){
+			Destroy(gameObject);
+			collider.gameObject.SendMessage("ApplyDamage", 1);
 		}
 	}
 }
