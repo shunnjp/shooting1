@@ -12,6 +12,12 @@ public class TouchController : MonoBehaviour {
 		Aim
 	};
 
+	public TouchController(GameObject p, int i, TouchType t){
+		player = p;
+		id = i;
+		type = t;
+	}
+
 	// Use this for initialization
 	void Start () {
 	
@@ -27,10 +33,11 @@ public class TouchController : MonoBehaviour {
 						case TouchType.Player:
 							switch(touch.phase){
 								case TouchPhase.Began:
-									//Debug.Log("touchBegan");
+									Debug.Log("touchBegan");
 									break;
 								case TouchPhase.Moved:
 								case TouchPhase.Stationary:
+									//プレイヤーを移動
 									player.SendMessage("MoveTo", touch.position);
 									break;
 								case TouchPhase.Ended:

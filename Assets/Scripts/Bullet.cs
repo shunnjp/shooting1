@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-	public float speed = 10.0f;
+	public float speed = 10.0f; 
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour {
 	}
 
 	public void AddForce(Vector2 v){
-		Debug.Log (v.x + " , " + v.y);
+		//Debug.Log (v.x + " , " + v.y);
 		rigidbody2D.AddForce(v * speed * 50.0f);
 	}
 	
@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour {
 	*/
 
 	void OnTriggerEnter2D(Collider2D collider){
-		Debug.Log ("衝突　" + collider.gameObject);
+		//Debug.Log ("衝突　" + collider.gameObject);
 		if(collider.gameObject.tag == "Enemy"){
 			Destroy(gameObject);
 			collider.gameObject.SendMessage("ApplyDamage", 1);
