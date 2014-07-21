@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour {
 	public float life;
 	public GameObject bulletPrefab;
 	public GameObject explosionPrefab;
+	public GameObject explosionPiecesPrefab;
 	public Wave wave;
 	
 	public uint shotInterval = 100;
@@ -36,6 +37,7 @@ public class Enemy : MonoBehaviour {
 		life -= damage;
 		if(life <= 0){
 			//死亡
+			//コライダーを即座に消去
 			Destroy(gameObject.collider2D);
 			if(wave != null){
 				//wave.SendMessage("EnemyDestroyed");
@@ -43,7 +45,9 @@ public class Enemy : MonoBehaviour {
 			}
 			//爆発を生成
 			GameObject.Instantiate(explosionPrefab, transform.position, transform.rotation);
+			GameObject.Instantiate(explosionPiecesPrefab, transform.position, transform.rotation);
 			iTween.Stop(gameObject);//移動等のトゥイーンを停止
+			//フェードアウト
 			iTween.FadeTo(gameObject, iTween.Hash("alpha", 0.0f, "time", 0.5f, "oncomplete", "Die"));
 		}else{
 			//ダメージのカラー効果
